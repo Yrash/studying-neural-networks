@@ -1,0 +1,14 @@
+{
+  "name": "arduino js ",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/Yrash/studying-neural-networks.git",
+  "author": "Yrash <yrash1990@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "avrgirl-arduino": "^4.2.3",
+    "johnny-five": "^2.0.0",
+    "keypress": "^0.2.1",
+    "serialport": "^9.0.1"
+  }
+}
