@@ -1,14 +1,22 @@
 {
-  "name": "arduino js ",
+  "name": "studying-neural-networks",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "index.html",
   "repository": "https://github.com/Yrash/studying-neural-networks.git",
   "author": "Yrash <yrash1990@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node ./index4.js"
+  },
   "dependencies": {
-    "avrgirl-arduino": "^4.2.3",
+    "brain.js": "^2.0.0-beta.2",
+    "canvas": "^2.6.1",
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
     "johnny-five": "^2.0.0",
-    "keypress": "^0.2.1",
-    "serialport": "^9.0.1"
+    "lodash": "^4.17.20",
+    "node-gyp": "^7.1.0",
+    "ora": "^5.1.0"
   }
 }

@@ -1,0 +1,31 @@
+.bloc_app {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  background: #0050;
+  align-items: center;
+}
+.controls {
+  border: 1px solid red;
+}
+.controls .bottom {
+  display: flex;
+}
+.motion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rendered_svg {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rendered_svg img {
+  border: 1px solid green;
+  width: 300px;
+  height: 300px;
+}
